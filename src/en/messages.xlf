@@ -17,7 +17,7 @@
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
-        <note priority="1" from="description"> app title yoo3</note>
+        <note priority="1" from="description"> app title yoo2</note>
         <note priority="1" from="meaning">appTitle2 </note>
       </trans-unit>
       <trans-unit id="APP_TITLE_I_SAID3" datatype="html">
@@ -26,8 +26,17 @@
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
-        <note priority="1" from="description"> app title yoo4</note>
+        <note priority="1" from="description"> app title yoo3</note>
         <note priority="1" from="meaning">appTitle3 </note>
+      </trans-unit>
+      <trans-unit id="APP_TITLE_I_SAID4" datatype="html">
+        <source>Translation Title4</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description"> app title yoo4</note>
+        <note priority="1" from="meaning">appTitle4 </note>
       </trans-unit>
     </body>
   </file>
