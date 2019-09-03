@@ -56,7 +56,7 @@ jobs {
         source_language             en
         destination_languages       de
         optimizations               NO
-        source_dir                  ../vcs/angular-smartcat-git-integration/master/src/
+        source_dir                  ../vcs/angular-smartcat-git-integration/master/src/en/
         source_match                \.xlf$
         debug                       NO
         parser {
