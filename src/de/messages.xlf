@@ -10,7 +10,7 @@
                 </context-group>
                 <note from="description" priority="1"> app title yoo</note>
                 <note from="meaning" priority="1">appTitle </note>
-                <target>Translation Title-fml</target>
+                <target>Translation Title-de-1</target>
             </trans-unit>
             <trans-unit datatype="html" id="APP_TITLE_I_SAID2">
                 <source>Translation Title2</source>
@@ -20,7 +20,7 @@
                 </context-group>
                 <note from="description" priority="1"> app title yoo3</note>
                 <note from="meaning" priority="1">appTitle2 </note>
-                <target></target>
+                <target>Translation Title-de-2</target>
             </trans-unit>
         </body>
     </file>
