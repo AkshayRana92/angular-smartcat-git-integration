@@ -36,13 +36,8 @@ sync
 
             remote_path
             {
-                master                git@github.com:AkshayRana92/angular-smartcat-git-integration.git#master
-
-                # feature branches
-
-            /* FBCGEN_BRANCH_REMOTES
+                master                git@github.com:AkshayRana92/angular-smartcat-git-integration.git
                 $FBCGEN_DIR_PADDED    ssh://user@git.example.com:7999/myproject.git#$FBCGEN_BRANCH
-            */
             }
         }
 
@@ -81,14 +76,12 @@ jobs {
         }
     }
 
-/* FBCGEN_BRANCH_JOBS
     :$FBCGEN_DIR {
-        @inherit                    .#jobs/:develop
-        id                          job.$FBCGEN_DIR
+        @inherit                    .#jobs/:master
+        id                          angular-smartcat-git-integration.job.$FBCGEN_DIR
                                       $FBCGEN_EXTRA_INCLUDE
         source_path_prefix          $FBCGEN_BRANCH.
-        source_dir                  ./branches/$FBCGEN_DIR/client/src/translations/
-        output_file_path            ./branches/$FBCGEN_DIR/client/src/translations/%CULTURE%.%EXT%
+        source_dir                  ../vcs/angular-smartcat-git-integration/$FBCGEN_DIR/src/en/
+        output_file_path            ../vcs/angular-smartcat-git-integration/$FBCGEN_DIR/src/%LANG%/%FILE%
     }
-*/
 }
