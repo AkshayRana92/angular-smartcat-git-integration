@@ -56,6 +56,15 @@
         <note priority="1" from="description"> app title yoo6</note>
         <note priority="1" from="meaning">appTitle6 </note>
       </trans-unit>
+      <trans-unit id="APP_TITLE_I_SAID7" datatype="html">
+        <source>Translation Title7</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description"> app title yoo7</note>
+        <note priority="1" from="meaning">appTitle7 </note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
