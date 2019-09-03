@@ -20,7 +20,7 @@
                 </context-group>
                 <note from="description" priority="1"> app title yoo3</note>
                 <note from="meaning" priority="1">appTitle2 </note>
-                <target>Translation Title-de-2</target>
+                <target>New-Translation Title-de-2</target>
             </trans-unit>
         </body>
     </file>
