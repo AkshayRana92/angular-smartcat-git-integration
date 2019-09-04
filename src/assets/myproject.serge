@@ -37,7 +37,7 @@ sync
             remote_path
             {
                 master                git@github.com:AkshayRana92/angular-smartcat-git-integration.git
-                $FBCGEN_DIR_PADDED    ssh://user@git.example.com:7999/myproject.git#$FBCGEN_BRANCH
+                $FBCGEN_DIR_PADDED    git@github.com:AkshayRana92/angular-smartcat-git-integration.git#$FBCGEN_BRANCH
             }
         }
 
