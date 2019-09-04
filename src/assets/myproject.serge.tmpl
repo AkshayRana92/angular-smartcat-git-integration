@@ -1,0 +1,76 @@
+sync
+{
+    ts
+    {
+            plugin                      Smartcat
+
+            data
+            {
+                project_id              bee6429d-292f-42b3-9d43-3a772bef7cfb
+                token_id                3e45d170-d894-4400-82a8-eef2842f3b6c
+
+                token                   4_s2vlyEHzBlm6axJSOQ5ohHLKe
+
+                push {
+                    disassemble_algorithm_name       Serge.io PO
+                }
+                pull {
+                    complete_projects                NO
+                    complete_documents               YES
+                }
+            }
+    }
+
+    vcs
+    {
+        plugin                        git
+
+        data
+        {
+            add_unversioned           YES
+            commit_message            Automatic commit of updated project translations files
+
+            email                     akshayy.rrana@gmail.com
+            name                      ar
+            local_path                ../vcs/angular-smartcat-git-integration
+
+            remote_path
+            {
+                master                git@github.com:AkshayRana92/angular-smartcat-git-integration.git
+                /* FBCGEN_BRANCH_REMOTES
+                $FBCGEN_DIR_PADDED    git@github.com:AkshayRana92/angular-smartcat-git-integration.git#$FBCGEN_BRANCH
+                */
+            }
+        }
+
+    }
+}
+
+jobs {
+    :master {
+
+    }
+
+    :$FBCGEN_DIR {
+        id                          angular-smartcat-git-integration.job.$FBCGEN_DIR
+        name                        angular-smartcat-git-integration
+        source_language             en
+        destination_languages       de
+        optimizations               NO
+        source_match                \.xlf$
+        debug                       NO
+        parser {
+            plugin                  parse_xliff
+        }
+        leave_untranslated_blank    YES
+        db_source                   DBI:SQLite:dbname=../db/angular-smartcat-git-integration.db3
+        db_namespace                angular-smartcat-git-integration
+        ts_file_path                ../ts/bee6429d-292f-42b3-9d43-3a772bef7cfb/%LANG%/%FILE%.po
+        output_bom                  NO
+        output_lang_rewrite {}
+                                      $FBCGEN_EXTRA_INCLUDE
+        source_path_prefix          $FBCGEN_BRANCH.
+        source_dir                  ../vcs/angular-smartcat-git-integration/$FBCGEN_DIR/src/en/
+        output_file_path            ../vcs/angular-smartcat-git-integration/$FBCGEN_DIR/src/%LANG%/%FILE%
+    }
+}
