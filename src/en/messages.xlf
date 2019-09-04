@@ -2,68 +2,14 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="APP_TITLE_I_SAID" datatype="html">
-        <source>Translation Title</source>
+      <trans-unit id="APP_TITLE_I_SAID8" datatype="html">
+        <source>Translation Title8</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.html</context>
           <context context-type="linenumber">1</context>
         </context-group>
-        <note priority="1" from="description"> app title yoo</note>
-        <note priority="1" from="meaning">appTitle </note>
-      </trans-unit>
-      <trans-unit id="APP_TITLE_I_SAID2" datatype="html">
-        <source>Translation Title2</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description"> app title yoo2</note>
-        <note priority="1" from="meaning">appTitle2 </note>
-      </trans-unit>
-      <trans-unit id="APP_TITLE_I_SAID3" datatype="html">
-        <source>Translation Title3</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description"> app title yoo3</note>
-        <note priority="1" from="meaning">appTitle3 </note>
-      </trans-unit>
-      <trans-unit id="APP_TITLE_I_SAID4" datatype="html">
-        <source>Translation Title4</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-        <note priority="1" from="description"> app title yoo4</note>
-        <note priority="1" from="meaning">appTitle4 </note>
-      </trans-unit>
-      <trans-unit id="APP_TITLE_I_SAID5" datatype="html">
-        <source>Translation Title5</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <note priority="1" from="description"> app title yoo5</note>
-        <note priority="1" from="meaning">appTitle5 </note>
-      </trans-unit>
-      <trans-unit id="APP_TITLE_I_SAID6" datatype="html">
-        <source>Translation Title6</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-        <note priority="1" from="description"> app title yoo6</note>
-        <note priority="1" from="meaning">appTitle6 </note>
-      </trans-unit>
-      <trans-unit id="APP_TITLE_I_SAID7" datatype="html">
-        <source>Translation Title7</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app/app.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <note priority="1" from="description"> app title yoo7</note>
-        <note priority="1" from="meaning">appTitle7 </note>
+        <note priority="1" from="description"> app title yoo8</note>
+        <note priority="1" from="meaning">appTitle8 </note>
       </trans-unit>
     </body>
   </file>
