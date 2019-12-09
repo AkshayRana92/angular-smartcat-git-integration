@@ -6,10 +6,10 @@ sync
 
             data
             {
-                project_id              bee6429d-292f-42b3-9d43-3a772bef7cfb
-                token_id                3e45d170-d894-4400-82a8-eef2842f3b6c
+                project_id              project_id
+                token_id                token_id
 
-                token                   4_s2vlyEHzBlm6axJSOQ5ohHLKe
+                token                   token
 
                 push {
                     disassemble_algorithm_name       Serge.io PO
